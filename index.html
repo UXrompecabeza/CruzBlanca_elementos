@@ -1,0 +1,145 @@
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="icon" type="image/x-icon" href="./assets/icons/favicon/favicon-bupa.png"/>
+    <link rel="stylesheet" href="css/libs/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/style-elementosNuevos.css"/>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <title>Cruz Blanca</title>
+  </head>
+  <body>
+    <div class="reembolso-form">
+      <div class="main-container">
+        <section class="narrow-container">
+          <!-- Aqui comienza elemento nuevo -->
+          <div class="exc-component">
+            <h4 class="form-title">¿Quieres usar tus excedentes?</h4>
+            <div class="exc-box"><img src="iconos/icon_excedentes.svg" alt=""/>
+              <div class="text-box">
+                <p>Si el valor solicitado a reembolsar sobrepasa el límite de reembolso, puedes complementarlo con tus excedentes</p><span>Tienes disponible </span><span> $60.000 </span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 col-xs-12">
+                <button class="exc-btn"> <img src="iconos/icon_si-autorizo.svg" alt=""/><span>Autorizo a usar mis excedentes </span></button>
+              </div>
+              <div class="col-md-6 col-xs-12">
+                <button class="exc-btn"> <img src="iconos/icon_no-autorizo.svg" alt=""/><span>No autorizo a usar mis excedentes </span></button>
+              </div>
+            </div>
+          </div>
+          <!-- Termino elemento nuevo -->
+        </section>
+      </div>
+    </div><br/><br/>
+    <div class="main-container"> 
+      <section class="resumen-box">
+        <div class="reembolso-resumen-main hide-sm"> 
+          <h4>Comprobante de solicitud de reembolso </h4>
+          <div class="row hide-sm">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+              <div class="beneficiario resumen-celda"><span>Beneficiario</span>
+                <h5>Eduardo Rojas Calderón - Beneficiario</h5>
+              </div>
+              <div class="nombre-corto resumen-celda"><span>Nombre corto del reembolso</span>
+                <h5>Resfrío de Martín</h5>
+              </div>
+              <div class="archivos resumen-celda"><span>Archivos adjuntos</span>
+                <h5>1 |  Boleta Nº 923812093102</h5>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 last-col">
+              <div class="fecha resumen-celda"><span>Fecha de atención</span>
+                <h5>02/03/2017</h5>
+              </div>
+              <!-- Aqui comienza elemento nuevo -->
+              <div class="monto-cell resumen-celda"><span>Monto de boleta adjunta a reembolsar</span>
+                <h5 class="monto-unidad">$ 4.985</h5>
+                <div class="exc-accepted"><img src="iconos/icon_si-autorizo.svg" alt=""/>
+                  <p>Autorizo a usar mis excedentes para complementar el reembolso</p>
+                </div>
+              </div>
+              <!-- Termino elemento nuevo -->
+              <div class="email resumen-celda"><span>Correo</span>
+                <h5>eduardorojas@gmail.com</h5>
+              </div>
+            </div>
+          </div>
+          <div class="change-request"><img src="./assets/icons/icon_pencil.svg"/><a href="reembolso-form.html">Modificar solicitud</a></div>
+        </div>
+        <div class="reembolso-resumen-main">
+          <div class="box-informe hide-md hide-lg">
+            <div class="box-label">
+              <p class="label-grey">Beneficiario</p>
+              <p class="inf-txt">Eduardo Rojas Calderón Titular</p>
+            </div>
+            <div class="box-label"> 
+              <p class="label-grey">Nombre corto del reembolso</p>
+              <p class="inf-txt">Resfrío Martín</p>
+            </div>
+            <div class="box-label">
+              <p class="label-grey">Fecha de atención</p>
+              <p class="inf-txt">22/10/2017</p>
+            </div>
+            <!-- Aqui comienza elemento nuevo -->
+            <div class="box-label">
+              <p class="label-grey">Monto solictado a reembolsar</p>
+              <p class="inf-txt_strong">$ 22.450</p>
+              <div class="exc-accepted"><img src="iconos/icon_si-autorizo.svg" alt=""/>
+                <p>Autorizo a usar mis excedentes para complementar el reembolso</p>
+              </div>
+              <!-- Termino elemento nuevo -->
+            </div><br/>
+            <div class="box-label">
+              <p class="label-grey">Archivos adjuntos</p><a href="#" download="download">
+                <p class="inf-txt">1 |  Boleta Nº 923812093102</p></a><a href="#" download="download">
+                <p class="inf-txt">2 | Lorem ipsum</p></a>
+            </div>
+            <div class="change-request"><img src="./assets/icons/icon_pencil.svg"/><a href="reembolso-form.html">Modificar solicitud</a></div>
+          </div>
+        </div>
+      </section>
+    </div><br/><br/>
+    <div class="main-container"> 
+      <div class="reembolso-exito-main">
+        <section class="narrow-container">
+          <h1 class="section-title section-title_desk hide-sm"> Reembolso para atención médica</h1>
+          <div class="msj-exito">
+            <h4>Solicitud ingresada correctamente</h4><img src="assets/icons/icon-exito.svg"/>
+            <p>Te informaremos del estado de esta solicitud vía mensajes en tu página de inicio del tu sitio web Cruz Blanca.</p>
+          </div>
+        </section>
+        <div class="hide-sm">
+          <div class="box-request"> 
+            <h4>Nº de solicitud : 3848484</h4>
+            <!-- Aqui comienza elemento nuevo -->
+            <p class="semibold">El tiempo aproximado de respuesta de tu reembolso es de 5 días hábiles</p>
+            <!-- Termino elemento nuevo -->
+          </div>
+          <div class="narrow-container">
+            <div class="box-request-mail">
+              <p>Cualquier novedad sobre esta solicitud te avisaremos a tu correo</p>
+              <p>eduardo.rojas@gmail.com</p>
+              <div class="change-mail"><img src="./assets/icons/icon_pencil.svg"/><a>Modificar correo</a></div>
+            </div>
+            <button class="btn-next" data-toggle="modal" data-target="#reembolsoModal">Salir</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hide-md hide-lg">
+      <div class="box-request"> 
+        <h4>Nº de solicitud : 3848484</h4>
+        <!-- Aqui comienza elemento nuevo -->
+        <p class="semibold">El tiempo aproximado de respuesta de tu reembolso es de 5 días hábiles</p>
+        <!-- Termino elemento nuevo -->
+      </div>
+    </div>
+  </body>
+</html>
+<script src="js/libs/jquery-3.3.1.min.js"></script>
+<script src="js/libs/bootstrap.min.js"></script>
+<script src="js/funciones-elementos.js"></script>
